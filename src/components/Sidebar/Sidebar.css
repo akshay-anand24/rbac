@@ -1,0 +1,33 @@
+.sidebar {
+    width: 220px;
+    background-color: #1e293b;
+    height: 100vh;
+    padding: 2rem;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Ensures the sidebar is scrollable if needed */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    text-align: center;
+    background-color: #334155;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #64748b;
+  }
+  
